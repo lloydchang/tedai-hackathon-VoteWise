@@ -90,13 +90,19 @@ With VoteWise's democratic insights and the advanced conversational capabilities
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/gjlondon/VoteWise
+git clone https://github.com/tedai-hackathon/VoteWise
 ```
 
 ###  Navigate to the project directory:
     
 ```
 cd VoteWise
+```
+
+### Set up a virtual environment:
+```
+python -m venv venv
+source ./venv/bin/activate
 ```
 
 ### Install the required dependencies using pip:
@@ -109,6 +115,7 @@ pip install -r requirements.txt
 
 - Create an OpenAI account and obtain an API key.
 - Set the `OPENAI_API_KEY`` environment variable with your API key 
+- Set the `SECRET_KEY`` environment variable to value of OPENAI_API_KEY
 - Set the `ANTHROPIC_API_KEY`` environment variable with your API key 
 
     On Windows:
